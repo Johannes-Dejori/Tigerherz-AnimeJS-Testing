@@ -11,5 +11,8 @@
   "devDependencies": {
     "sass": "^1.57.1",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "animejs": "^3.2.1"
   }
 }

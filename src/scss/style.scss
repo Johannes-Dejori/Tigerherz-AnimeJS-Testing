@@ -1,1 +1,54 @@
 @import "preset";
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  color: white;
+
+  & > div, input {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  .example, .square, .square_01, .square_02 {
+    padding: 10px;
+    background-color: blue;
+  }
+
+  #square_03 {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 10px;
+    background-color: blue;
+  }
+
+  .example-wrapper {
+    position: relative;
+  }
+
+  .example-03 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .example-04 {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr); /* 14 Zeilen */
+    grid-template-rows: repeat(5, 1fr); /* 5 Spalten */
+  }
+
+  .example-05 {
+    display: grid;
+    grid-template-columns: repeat(14, 1fr); /* 14 Zeilen */
+    grid-template-rows: repeat(5, 1fr); /* 5 Spalten */
+  }
+
+  input{
+    padding: 10px;
+  }
+
+}
